@@ -28,12 +28,12 @@ const Home: React.FC = () => {
       bg-gradient-to-bl from-gray-950 via-blue-950 to-gray-950
       text-white`}
     >
-      <div className="bg-gradient-to-r from-purple-700 to-blue-700 p-4 rounded-xl">
-        <h1 className="text-3xl font-sans-serif mb-4">Cultivar e Embalagem</h1>
+      <div className="bg-gradient-to-r from-purple-700 to-blue-700 p-12 rounded-xl">
+        <h1 className="text-5xl font-sans-serif mb-3">Cultivar e Embalagem</h1>
         {cultivares.length > 0 ? (
           <Tabela cultivares={cultivares} />
         ) : (
-          <p>CRUD com os dados mockados</p>
+          <p className = "text-2xl">CRUD com os dados simulados</p>
         )}
       </div>
     </div>

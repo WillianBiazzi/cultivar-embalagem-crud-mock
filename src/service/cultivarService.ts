@@ -1,16 +1,8 @@
 import Cultivar from '../core/Cultivar';
 
 let cultivaresList: Cultivar[] = [
-  new Cultivar(1, "Brasmax Vênus",
-    "57K58RSF CE ",
-    177,
-    12
-  ),
-  new Cultivar(2, "Brasmax Zeus",
-    "55I57RSF IPRO",
-    185,
-    12
-  )
+  new Cultivar(1, "Brasmax Vênus","57K58RSF CE ",177,12),
+  new Cultivar(2, "Brasmax Zeus","55I57RSF IPRO",185,12)
 ];
 
 let proximoId = cultivaresList.length + 1;

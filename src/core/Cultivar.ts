@@ -1,4 +1,3 @@
-//import { stringParaEntradaDeData } from "@/utils/converters";
 
 export default class Cultivar {
   id: number | null;
